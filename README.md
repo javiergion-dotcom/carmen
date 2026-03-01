@@ -3,9 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <title>Carmen</title>
+
+<style>
+body {
+  background-color: #1e1e2f;
+  color: #f2f2f2;
+  font-family: Arial;
+  padding: 40px;
+}
+h2 {
+  color: #ff4da6;
+}
+</style>
+
 </head>
 
-<body style="font-family: Arial; padding:40px">
+<body>
 
 <h2>Carmen</h2>
 <pre id="alma">Cargando...</pre>
