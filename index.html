@@ -2,35 +2,19 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>Carmen</title>
-
-<style>
-body {
-  background-color: #1e1e2f;
-  color: #f2f2f2;
-  font-family: Arial;
-  padding: 40px;
-}
-h2 {
-  color: #ff4da6;
-}
-</style>
-
+<title>MONOLITO GPT PRO</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 
-<div id="carmen">
-  <h2>Carmen</h2>
-  <pre id="alma">Cargando...</pre>
-</div>
+<h1>MONOLITO GPT PRO</h1>
+<button onclick="entrar()">Entrar</button>
 
 <script>
-fetch("carmen-system.txt")
-  .then(r => r.text())
-  .then(t => {
-    document.getElementById("alma").textContent = t;
-  });
+function entrar() {
+  window.location.href = "app.html";
+}
 </script>
 
 </body>
